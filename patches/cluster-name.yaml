@@ -1,0 +1,4 @@
+cluster:
+  clusterName: taloskube.lab.idland.cloud
+  network:
+    dnsDomain: local.taloskube.lab.idland.cloud

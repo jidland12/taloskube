@@ -1,0 +1,6 @@
+kubeconfig
+secrets.yaml
+talosconfig
+cmds.txt
+
+rendered/

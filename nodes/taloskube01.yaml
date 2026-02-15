@@ -1,0 +1,22 @@
+machine:
+  install:
+    disk: none
+    diskSelector:
+      size: '< 300GB'
+    wipe: true
+  network:
+    interfaces:
+    - interface: ens4f0np0
+      dhcp: false
+      addresses:
+        - 10.40.0.11/22
+      routes:
+        - network: 0.0.0.0/0
+          gateway: 10.40.1.1
+      mtu: 9000
+    nameservers:
+      - 10.10.5.0
+  features:
+    hostDNS:
+      enabled: false
+      forwardKubeDNSToHost: false
