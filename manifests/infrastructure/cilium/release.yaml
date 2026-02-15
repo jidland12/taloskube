@@ -26,7 +26,7 @@ spec:
       ui:
         enabled: true
       peerService:
-        clusterDomain: local.taloskube.lab.idland.cloud
+        clusterDomain: local.taloskube.lab.idland.cloud.
     etcd:
       clusterDomain: local.taloskube.lab.idland.cloud
     kubeProxyReplacement: strict
