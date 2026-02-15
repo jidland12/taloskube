@@ -7,7 +7,7 @@ spec:
   description: "control-plane specific access rules."
   nodeSelector:
     matchLabels:
-      node-role.kubernetes.io/control-plane:
+      node-role.kubernetes.io/control-plane: ""
   ingress:
   # Allow access to kube api from anywhere.
   - fromEntities:
