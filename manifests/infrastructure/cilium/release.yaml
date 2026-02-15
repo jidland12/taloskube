@@ -26,9 +26,9 @@ spec:
       ui:
         enabled: true
       peerService:
-        clusterDomain: local.kronform.pius.dev
+        clusterDomain: local.taloskube.lab.idland.cloud
     etcd:
-      clusterDomain: local.kronform.pius.dev
+      clusterDomain: local.taloskube.lab.idland.cloud
     kubeProxyReplacement: strict
     securityContext:
       capabilities:
@@ -52,5 +52,5 @@ spec:
       autoMount:
         enabled: true
       hostRoot: /sys/fs/cgroup
-    k8sServiceHost: api.kronform.pius.dev
+    k8sServiceHost: api.taloskube.lab.idland.cloud
     k8sServicePort: "6443"
