@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./manifests/infrastructure/haproxy=ingress/
+  path: ./manifests/infrastructure/haproxy-ingress/
   prune: true
   sourceRef:
     kind: GitRepository
